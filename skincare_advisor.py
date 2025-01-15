@@ -26,14 +26,14 @@ def main():
         for name, category in products:
             print(f"- {name} ({category})")
     else:
-        print("\nNo product recommendations found for your condition.")
+        print("\nNo product recommendations found for your condition. Please check in later for more updates!")
 
     if routines:
         print("\nRecommended Routine:")
         for routine_name, steps in routines:
             print(f"\n{routine_name}\nSteps:\n{steps}")
     else:
-        print("\nNo routine recommendations found for your condition.")
+        print("\nNo routine recommendations found for your condition. Please check in later for more updates!")
 
 if __name__ == '__main__':
     main()
